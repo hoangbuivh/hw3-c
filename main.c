@@ -2,8 +2,7 @@
 #include <readline/readline.h>
 #include <stdlib.h> 
 //Author Hoang Bui hhb5051@spu.edu
-int countDigit(long long n) 
-{ 
+int countDigit(long long n) { 
     int count = 0; 
     if(n==0){
       ++count;
